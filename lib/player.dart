@@ -23,8 +23,15 @@ class _HlsAudioPageState extends State<HlsAudioPage> {
   @override
   void initState() {
     super.initState();
+    // var str =
+    //     "http://sample.vodobox.net/skate_phantom_flex_4k/skate_phantom_flex_4k.m3u8";
+    // BetterPlayerConfiguration betterPlayerConfiguration =
+    //     BetterPlayerConfiguration(
+    //   aspectRatio: 16 / 9,
+    //   fit: BoxFit.contain,
+    // );
     var str =
-        "http://sample.vodobox.net/skate_phantom_flex_4k/skate_phantom_flex_4k.m3u8";
+        "https://cdn.bitmovin.com/content/assets/sintel/hls/playlist.m3u8";
     BetterPlayerConfiguration betterPlayerConfiguration =
         BetterPlayerConfiguration(
       aspectRatio: 16 / 9,
